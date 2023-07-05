@@ -58,12 +58,12 @@ GOOGLE_APP_PASSCODE=
 | `GITHUB_USERNAME`     | Your GitHub username.                                                                        |
 | `GITHUB_BUDDY`        | The name of a buddy on your team so you can stay informed and seem omniscient.               |
 | `ORGANIZATION`        | The name of the organization you want to pull PRs from.                                      |
-| `REPO `               | The name of the repo you want to pull PRs from.                                              |
+| `REPO`                | The name of the repo you want to pull PRs from.                                              |
 | `OPENAI_API_KEY`      | The OpenAI API key to invoke ChatGPT.                                                        |
 | `TODOIST_API_KEY`     | The Todoist API key to make you seem on top of 💩.                                           |
-| `TODOIST_PROJECT `    | The name of the project in Todoist you want to add tasks to.                                 |
-| `NAME `               | Your name.                                                                                   |
-| `GOOGLE_EMAIL `       | Your Gmail address.                                                                          |
+| `TODOIST_PROJECT`     | The name of the project in Todoist you want to add tasks to.                                 |
+| `NAME`                | Your name.                                                                                   |
+| `GOOGLE_EMAIL`        | Your Gmail address.                                                                          |
 | `GOOGLE_APP_PASSCODE` | Your app password set via `Google Account > Security > 2-Step Verification > App Passwords`. |
 
 ## Run it
