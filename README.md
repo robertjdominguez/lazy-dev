@@ -1,4 +1,4 @@
-# dev-assistant
+# lazy-dev
 
 ## Motivation
 
@@ -15,14 +15,14 @@ You'll need the following before proceeding:
   - `read:org`
 - An OpenAI API key
 - A Todoist API key
-- A gmail app password
+- A Gmail app password
 
 ## Configuration
 
 Clone the repository:
 
 ```bash
-git clone ...
+git clone https://github.com/robertjdominguez/lazy-dev.git
 ```
 
 Install the dependencies:
@@ -31,7 +31,8 @@ Install the dependencies:
 npm i
 ```
 
-Once you have the prerequisites, create an `.env` file in the root of the project. It should look something like this:
+Once you have the prerequisites, create an `.env` file in the root of the project. You'll need the following, so be lazy
+and copy/paste:
 
 ```dotenv
 GITHUB_TOKEN=
@@ -78,4 +79,3 @@ all the information sent to your email.
 ## Deployment
 
 Anywhere crons can be run. I love [Render](https://render.com) because it's cheap and easy 🎉
-# lazy-dev
