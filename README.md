@@ -1,9 +1,13 @@
 # lazy-dev
 
-## Motivation
+## tl;dr
 
-I'm continually accepting my fate as a lazy developer. I'm always looking for ways to automate the boring stuff. This is
-yet another step in that direction. Want to read more? Check out this blog post. Want to be lazy too, see below 👇
+This repo allows you to take all activity in recent PRs of which you're part of the discussion, summarize it, and send
+it to your email. It also adds tasks to your Todoist for each PR. It's a great way to stay on top of things without
+having to actually stay on top of things.
+
+I'm continually accepting my fate as a lazy developer. This is yet another step in that direction. Want to read more?
+Check out this [blog post](https://www.dominguezdev.com/posts/cheap-lazy-bastard). Want to be lazy too, see below 👇
 
 ## Prerequisites
 
