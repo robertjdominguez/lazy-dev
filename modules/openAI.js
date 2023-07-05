@@ -45,7 +45,6 @@ const summarizePR = async (prList) => {
       continue;
     }
     let text = generateText(pr);
-    // remove the ## title
     text = generateText(pr).replace(/##.*/g, "");
     const chatCompletion = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",

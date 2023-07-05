@@ -5,9 +5,6 @@ const { TodoistApi } = require("@doist/todoist-api-typescript");
 const api = new TodoistApi(process.env.TODOIST_API_KEY);
 
 const addTask = async (task, id) => {
-  // create string that is today's date in yyyy-mm-dd format
-  const today = new Date().toISOString().split("T")[0];
-
   const newTask = await api.addTask({
     content: task,
     projectId: `${id}`,
@@ -29,17 +26,13 @@ const automateTasks = async (summaries) => {
     const matches = summary.content.match(regex);
     const tasks = matches;
     if (tasks.length > 0) {
-      // remove the ## from the title
       const title = summary.title.replace(/^##/, "");
       console.log(`📋 Adding ${tasks.length} tasks for PR ${title} to Todoist...`);
-      // add a new parent task with the title
       const newTask = await api.addTask({
         content: title,
         projectId: `${workProject.id}`,
       });
-      // create subtasks on the newTask.id for each task
       tasks.forEach(async (text) => {
-        // shape the text
         text = text.replace(/^[-*]/, "");
         await api.addTask({
           content: text,
