@@ -1,0 +1,19 @@
+{
+  "name": "lazy-dev",
+  "version": "1.0.0",
+  "description": "For the dev that wants to be lazy, yet also productive.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Rob Dominguez",
+  "license": "MIT",
+  "dependencies": {
+    "@doist/todoist-api-typescript": "^2.1.2",
+    "@octokit/rest": "^19.0.13",
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.3",
+    "openai": "^3.3.0"
+  }
+}
