@@ -25,7 +25,7 @@ const automateTasks = async (summaries) => {
     const regex = /^[-*](.+)$/gm;
     const matches = summary.content.match(regex);
     const tasks = matches;
-    if (tasks.length > 0) {
+    if (tasks && tasks.length > 0) {
       const title = summary.title.replace(/^##/, "");
       console.log(`📋 Adding ${tasks.length} tasks for PR ${title} to Todoist...`);
       const newTask = await api.addTask({

@@ -43,9 +43,10 @@ and copy/paste:
 ```dotenv
 GITHUB_TOKEN=
 GITHUB_USERNAME=
-GITHUB_BUDDY=
+TEAM=
 ORGANIZATION=
 REPO=
+PATH_TO_WATCH=
 OPENAI_API_KEY=
 TODOIST_API_KEY=
 TODOIST_PROJECT=
@@ -60,9 +61,10 @@ GOOGLE_APP_PASSCODE=
 | --------------------- | -------------------------------------------------------------------------------------------- |
 | `GITHUB_TOKEN`        | Your GitHub token, created via `Settings > Developer Settings > PAT`                         |
 | `GITHUB_USERNAME`     | Your GitHub username.                                                                        |
-| `GITHUB_BUDDY`        | The name of a buddy on your team so you can stay informed and seem omniscient.               |
+| `TEAM`                | The name of the team you want to seem omniscient about.                                      |
 | `ORGANIZATION`        | The name of the organization you want to pull PRs from.                                      |
 | `REPO`                | The name of the repo you want to pull PRs from.                                              |
+| `PATH_TO_WATCH`       | The path to watch for changes in the PRs.                                                    |
 | `OPENAI_API_KEY`      | The OpenAI API key to invoke ChatGPT.                                                        |
 | `TODOIST_API_KEY`     | The Todoist API key to make you seem on top of 💩.                                           |
 | `TODOIST_PROJECT`     | The name of the project in Todoist you want to add tasks to.                                 |
