@@ -93,7 +93,7 @@ const getComments = async (PRs, team) => {
         title: pr.title,
         comments: commentText,
         url: pr.html_url,
-        role: isAuthor ? "author" : isBuddy() ? "buddy" : isReviewer() ? "reviewer" : "unknown",
+        role: isAuthor ? "author" : isBuddy() ? "buddy" : isReviewer() ? "reviewer" : "reviewer",
       };
     })
   );
